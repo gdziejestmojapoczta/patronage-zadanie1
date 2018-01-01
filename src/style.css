@@ -1,0 +1,32 @@
+.moviesCounter{
+	font-weight: bold;
+}
+
+#moviesListContainer{
+	margin-top:100px;
+}
+
+#moviesCountersContainer{
+	display:flex;
+	justify-content: flex-end;
+}
+
+#moviesCountersContainer > p{
+	margin-right: 10px;
+}
+
+#moviesList{
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+#moviesList > li{
+	margin-right: 20px;
+}
+
+
+#moviesList > li:hover{
+background-color: #ddf;
+}
